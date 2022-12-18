@@ -1,0 +1,196 @@
+body {
+  color: #333;
+}
+img {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.line-bottom {
+  border-bottom: 1px solid #333;
+  margin-top: 15px;
+  width: 700px;
+  margin: auto;
+}
+/* HEADER */
+header .greetings {
+  width: 700px;
+  height: 200px;
+  margin: auto;
+  position: relative;
+}
+header .greetings h1 {
+  position: absolute;
+  text-align: start;
+  bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+header .greetings p {
+  position: absolute;
+  text-align: start;
+  bottom: 5px;
+}
+header .profile {
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+header .profile .profile-imgbox img {
+  width: 200px;
+  height: 200px;
+}
+header .profile .privacy {
+  padding-left: 50px;
+}
+header .profile .privacy .contact {
+  padding-bottom: 15px;
+}
+header .profile .privacy .contact h1,
+.channel h1 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: orange;
+  font-weight: 700;
+}
+header .profile .privacy .contact p,
+.channel p {
+  padding-bottom: 10px;
+}
+
+header .profile .privacy .channel {
+}
+
+header .profile .privacy .channel p {
+}
+
+/* SECTION  MOTIVATION*/
+section .motivation {
+  width: 700px;
+  height: 420px;
+  margin: auto;
+  margin-top: 50px;
+  border-bottom: 1px solid #333;
+}
+section .motivation h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+section .motivation p {
+  margin-top: 15px;
+  line-height: 30px;
+}
+/* LEARNING HISTORY */
+section .learning-history {
+  width: 700px;
+  height: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  border-bottom: 1px solid #333;
+}
+section .learning-history > h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+section .learning-history .subject {
+  margin-top: 15px;
+}
+section .learning-history .subject h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: green;
+  margin-top: 30px;
+}
+section .learning-history .subject p {
+  padding: 10px 0;
+  line-height: 30px;
+}
+section .learning-history .subject .learning-html {
+}
+section .learning-history .subject .learning-css {
+}
+section .learning-history .subject .learning-javascript {
+}
+section .learning-history .subject .learning-react {
+}
+/* NEXT STEP */
+section .next-step {
+  width: 700px;
+  height: 680px;
+  margin: auto;
+  margin-top: 50px;
+  border-bottom: 1px solid #333;
+}
+section .next-learning > h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+section .next-step .next-learning p {
+  padding: 10px 0;
+  line-height: 30px;
+}
+/* DREAM */
+section .dream {
+  width: 700px;
+  height: 290px;
+  margin: auto;
+  margin-top: 50px;
+  border-bottom: 1px solid #333;
+}
+section .dream .my-dream {
+}
+section .dream .my-dream h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+section .dream .my-dream p {
+  padding: 10px 0;
+  line-height: 30px;
+}
+/* SKILL */
+section .skill {
+  width: 700px;
+  height: 120px;
+  margin: auto;
+  margin-top: 50px;
+  border-bottom: 1px solid #333;
+}
+section .skill .my-skill {
+}
+section .skill .my-skill h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+section .skill .my-skill li {
+  padding: 10px 0;
+  line-height: 30px;
+}
+/* EDUCATION */
+section .education {
+  width: 700px;
+  height: 120px;
+  margin: auto;
+  margin-top: 50px;
+}
+section .education .my-education {
+}
+section .education .my-education h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: orange;
+}
+section .education .my-education p {
+  padding: 10px 0;
+  line-height: 30px;
+}
